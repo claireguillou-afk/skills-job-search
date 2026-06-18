@@ -40,8 +40,19 @@ Pipeline en 8 étapes :
 
 ---
 
+## Templates
+
+| Fichier | Description |
+|---|---|
+| [`dedup_veille_template.csv`](./dedup_veille_template.csv) | Fichier CSV vide pour le suivi anti-doublons |
+| [`notion-database-schema.md`](./notion-database-schema.md) | Schéma complet de la base Notion |
+| [🔎 Job Search Tracker — Notion](https://app.notion.com/p/11178f3038964ae78fe14812e0f4fd1f?v=62b0cb054ba84d32823f41bce957e4d8) | Base Notion vide prête à l'emploi |
+
+---
+
 ## Installation
 
 1. Cloner ce repo
 2. Placer les dossiers dans `/mnt/skills/user/` de ton environnement Cowork
 3. Les skills apparaissent automatiquement dans la liste des skills disponibles
+4. Dupliquer la base Notion template et mettre à jour `YOUR_NOTION_COLLECTION_ID` dans le skill `veille-emploi`
